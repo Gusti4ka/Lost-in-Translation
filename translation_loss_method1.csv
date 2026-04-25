@@ -1,0 +1,31 @@
+concept,field,abstraction,mean_cos_sim,std_cos_sim,L(c)
+specialty,gastronomy,abstract,0.041921653,0.035680577,0.9580783
+destination,travel,semi-concrete,0.037001885,0.043349568,0.9629981
+homeland,travel,abstract,0.035434335,0.04624415,0.96456563
+feast,gastronomy,semi-abstract,0.03166013,0.058183245,0.96833986
+delight,gastronomy,very abstract,0.02613768,0.06827731,0.9738623
+hunger,gastronomy,semi-concrete,0.017378543,0.039347906,0.98262143
+spice,gastronomy,concrete,0.016220268,0.051040765,0.9837797
+longing,emotion,abstract,0.013182329,0.029190753,0.98681766
+grief,emotion,abstract,0.009207362,0.03691628,0.99079263
+fear,emotion,semi-concrete,0.007836044,0.037389833,0.99216396
+tear,emotion,concrete,0.0050977888,0.045725685,0.9949022
+flavor,gastronomy,semi-abstract,0.004718065,0.051872652,0.99528193
+border,travel,concrete,0.0044755405,0.06609336,0.99552447
+joy,emotion,semi-concrete,0.0034042462,0.05790756,0.99659574
+return,travel,semi-concrete,0.0026479762,0.036721412,0.997352
+exile,travel,very abstract,-0.000639013,0.07937785,1.000639
+road,travel,concrete,-0.005115057,0.022548849,1.005115
+cheese,gastronomy,very concrete,-0.007663681,0.046344515,1.0076637
+arrival,travel,concrete,-0.0079353675,0.03885091,1.0079354
+shame,emotion,abstract,-0.008002239,0.063076586,1.0080023
+bitter,gastronomy,semi-abstract,-0.008835437,0.059051007,1.0088354
+trip,travel,semi-concrete,-0.010354312,0.06952813,1.0103543
+love,emotion,universal,-0.010437099,0.048640106,1.0104371
+olive,gastronomy,very concrete,-0.010775593,0.044975214,1.0107756
+departure,travel,concrete,-0.012741518,0.064841956,1.0127416
+bread,gastronomy,very concrete,-0.01957364,0.04867348,1.0195737
+smile,emotion,concrete,-0.021640567,0.042147752,1.0216405
+wandering,travel,abstract,-0.031919323,0.063076936,1.0319194
+hope,emotion,abstract,-0.034117915,0.05297827,1.0341179
+rage,emotion,semi-concrete,-0.038899343,0.045557104,1.0388993
