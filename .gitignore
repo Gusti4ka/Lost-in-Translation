@@ -211,3 +211,9 @@ models/
 *.vec.gz
 *.vec
 *.bin
+
+# Project-specific data files (hosted on Google Drive)
+word_list.csv
+vectors.csv
+translation_loss_method1.csv
+translation_loss_method3.csv
