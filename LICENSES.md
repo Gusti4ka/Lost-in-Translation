@@ -1,60 +1,68 @@
-# Licenses & Attribution
+# Licenses and Data Sources
+
+---
 
 ## Data Source 1 — Author's Curated Word List
-**File:** `word_list.csv`
-**Author:** Avgustina Daskalova
-**License:** © 2026 Avgustina Daskalova. All rights reserved.
+
+**File:** `word_list.csv`  
+**Author:** Avgustina Daskalova  
+ 
 **Description:** Original scholarly work. 30 concepts across 5 languages,
 curated using native linguistic expertise and 22 years of professional experience.
 
 ---
 
 ## Data Source 2 — fastText Common Crawl Word Vectors
-**Files:** `vectors.csv` (derived from fastText pre-trained models)
-**Original source:** https://fasttext.cc/docs/en/crawl-vectors.html
-**License:** Creative Commons Attribution-Share-Alike 3.0 (CC BY-SA 3.0)
-**Full license text:** https://creativecommons.org/licenses/by-sa/3.0/
+
+**Files:** `vectors.csv` (derived from fastText pre-trained models)  
+**Original source:** https://fasttext.cc/docs/en/crawl-vectors.html  
+**License:** Creative Commons Attribution-ShareAlike 3.0 (CC BY-SA 3.0)  
+**Full license text:** https://creativecommons.org/licenses/by-sa/3.0/  
 **Attribution:**
+
 > Grave, E., Bojanowski, P., Gupta, P., Joulin, A., & Mikolov, T. (2018).
 > *Learning Word Vectors for 157 Languages.*
 > Proceedings of LREC 2018.
 
-The file `vectors.csv` contains 150 word vectors (30 words × 5 languages)
-extracted from the fastText Common Crawl pre-trained models.
-This derived dataset is distributed under the same CC BY-SA 3.0 license.
-
 ---
 
 ## Data Source 3 — Open Multilingual WordNet
-**Accessed via:** Python `nltk` library
-**License:** CC BY 3.0 (Open License)
-**Full license text:** https://creativecommons.org/licenses/by/3.0/
+
+**Accessed via:** Python `nltk` library  
+**License:** Per-language open licenses (CC BY 3.0, CC BY-SA 3.0,
+Princeton WordNet License, MIT, Apache 2.0).  
+**Full license details:** https://omwn.org/omw1.html  
 **Attribution:**
-> Bond, F. & Paik, K. (2012).
-> *A survey of WordNets and their licenses.*
-> Proceedings of the 6th Global WordNet Conference (GWC 2012).
 
-**Bulgarian WordNet attribution:**
-> BulTreeBank WordNet (BTB-WN), CLaDA-BG project.
-> https://clada-bg.eu/en/centers-and-services/language-technologies/btb-wordnet.html
+> Bond, F., & Paik, K. (2012). *A survey of wordnets and their licenses.*
+> Proceedings of the 6th Global WordNet Conference (GWC 2012), pp. 64–71.
 
----
+> Bond, F., & Foster, R. (2013). *Linking and extending an open multilingual wordnet.*
+> Proceedings of ACL 2013, pp. 1352–1362.
 
-## Python Libraries
+**Bulgarian WordNet (BTB-WN) attribution:**
 
-| Library | License |
-|---------|---------|
-| `numpy` | BSD 3-Clause |
-| `pandas` | BSD 3-Clause |
-| `scikit-learn` | BSD 3-Clause |
-| `matplotlib` | PSF License |
-| `seaborn` | BSD 3-Clause |
-| `gensim` | LGPL-2.1 |
-| `nltk` | Apache 2.0 |
-
-All libraries are open source and free for academic use.
+> Simov, K., & Osenova, P. (2010). *BulTreeBank Wordnet (BTB-WN).*
+> License: CC BY 3.0.
+> Distributed via the Open Multilingual Wordnet.
 
 ---
 
-*This project is submitted as a Data Science exam project at
-Software University (SoftUni), Sofia, Bulgaria, April 2026.*
+## Data Source 4 — LaBSE
+
+**Model:** Language-Agnostic BERT Sentence Embeddings  
+**Source:** https://huggingface.co/sentence-transformers/LaBSE  
+**License:** Apache License 2.0  
+**Full license text:** https://www.apache.org/licenses/LICENSE-2.0  
+**Attribution:**
+
+> Feng, F., Yang, Y., Cer, D., Arivazhagan, N., & Wang, W. (2022).
+> *Language-agnostic BERT Sentence Embedding.*
+> Proceedings of ACL 2022, pp. 878–891. Dublin, Ireland.
+> DOI: 10.18653/v1/2022.acl-long.62
+
+---
+
+## Project License
+
+Final Exam Project — SoftUni Data Science Module, April 2026.
