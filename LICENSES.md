@@ -65,6 +65,4 @@ Princeton WordNet License, MIT, Apache 2.0).
 
 ## Project License
 
-All original code and analysis in this repository:  
-**© 2026 Avgustina Daskalova. All rights reserved.**  
 Final Exam Project — SoftUni Data Science Module, April 2026.
