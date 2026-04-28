@@ -1,114 +1,69 @@
-# Lost in Translation
+# Lost in Translation 🗺️
 
-# A Mathematical Journey Through the Geometry of Meaning
+## A Mathematical Journey Through the Geometry of Meaning
 
-# Author: Avgustina Daskalova
+> *"The limits of my language mean the limits of my world."*  
+> — Ludwig Wittgenstein, *Tractatus Logico-Philosophicus*, 1921
 
-# Institution: SoftUni — Data Science Module
+---
 
-# Submission: Final Exam Project, April 2026
+## Overview
 
-# 
+Some words travel well. Others lose something in translation — not through 
+carelessness, but because the coordinate systems of different languages 
+do not overlap. This project attempts to measure that loss mathematically.
 
-# Project Overview
+Using monolingual fastText embeddings and multilingual LaBSE contextual 
+embeddings, we define an original **Translation Loss metric ℒ(c)** and 
+apply it to 30 carefully selected words across five languages: English, 
+Spanish, Portuguese, Italian, and Bulgarian.
 
-# Can we measure how much meaning is lost in translation? This project designs a computational experiment to quantify semantic translation loss across five languages — English, Spanish, Portuguese, Italian and Bulgarian — using word embeddings, cosine similarity, and an original experimental application of cosine distance as a Translation Loss metric ℒ(c).
+**Author:** Avgustina Daskalova  
+**Institution:** SoftUni — Data Science Module  
+**Submission:** Final Exam Project, April 2026
 
-# 
+---
 
-# Repository Structure
+## Methods
 
-# Lost-in-Translation/
+| Method | Model | Type |
+|--------|-------|------|
+| Method 1 | fastText (monolingual) | Coordinate topology |
+| Method 2 | Aligned fastText + RCSLS | Bridge (theoretical) |
+| Method 3 | LaBSE | Semantic proximity |
 
-# ├── Lost\_In\_Translation.ipynb
+---
 
-# ├── README.md
+## Data
 
-# ├── .gitignore
+Data files are not stored in this repository.  
+📂 [Download from Google Drive](https://drive.google.com/drive/folders/1pCh3F9BommtSPDf40_lcGZbHGUV66XZj?usp=sharing)
 
-# └── models/
+Place CSV files in the same directory as the notebook before running.
 
-# 
+---
 
-# Data Files
+## How to Reproduce
 
-# Data files are hosted on Google Drive (not committed to this repository per academic best practices):
+1. Clone this repository
+2. Download data files from Google Drive link above
+3. Place CSV files in the same directory as the notebook
+4. Install dependencies (see below)
+5. Run all cells top to bottom
 
-# https://drive.google.com/drive/folders/1pCh3F9BommtSPDf40\_lcGZbHGUV66XZj?usp=sharing
+> **Note:** fastText models (~6GB) are required only for Part A.  
+> Skip to Part B using pre-extracted `vectors.csv` from Google Drive.
 
-# word\_list.csv — 30 concepts x 5 languages, author-curated
+---
 
-# vectors.csv — Pre-extracted fastText vectors (328 KB)
+## Installation
 
-# translation\_loss\_method1.csv — Method 1 results
+```bash
+pip install numpy pandas matplotlib seaborn gensim sentence-transformers scikit-learn scipy nltk
+```
 
-# translation\_loss\_method3.csv — Method 3 LaBSE results
+---
 
-# 
+## License
 
-# Methods
-
-# Method 1 — Monolingual fastText — Meta AI Common Crawl vectors — Complete
-
-# Method 2 — Aligned fastText RCSLS — Aligned cross-lingual vectors — Theory only
-
-# Method 3 — LaBSE — Google multilingual BERT — Complete
-
-# 
-
-# Key Finding
-
-# Method 1 measured coordinate distance, not semantic distance. LaBSE, by projecting all languages into a single shared space, reveals the meaning that was always there.
-
-# saudade (longing\_EN to saudade\_PT):
-
-# fastText: cosine similarity = 0.037
-
-# LaBSE: cosine similarity = 0.791
-
-# 
-
-# Requirements
-
-# Python 3.10+
-
-# numpy, pandas, matplotlib, seaborn
-
-# gensim, sentence-transformers
-
-# scikit-learn, scipy, nltk
-
-# Install: pip install numpy pandas matplotlib seaborn gensim sentence-transformers scikit-learn scipy nltk
-
-# 
-
-# How to Reproduce
-
-# 
-
-# Clone this repository
-
-# Download data files from Google Drive link above
-
-# Place CSV files in the same directory as the notebook
-
-# Run all cells top to bottom
-
-# fastText models (6GB) required only for Part A — skip to Part B using pre-extracted vectors.csv
-
-# 
-
-# 
-
-# Academic Integrity
-
-# All Bulgarian translations provided by the author as a native speaker.
-
-# AI coding assistance: Claude Sonnet (Anthropic, 2025-2026).
-
-# All code reviewed, tested and validated by the author.
-
-# Sources documented in Section 10 — The Compass.
-
-# 
-
+See `LICENSES.md`
