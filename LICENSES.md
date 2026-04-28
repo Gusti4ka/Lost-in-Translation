@@ -6,7 +6,7 @@
 
 **File:** `word_list.csv`  
 **Author:** Avgustina Daskalova  
-**License:** © 2026 Avgustina Daskalova. All rights reserved.  
+ 
 **Description:** Original scholarly work. 30 concepts across 5 languages,
 curated using native linguistic expertise and 22 years of professional experience.
 
