@@ -9,12 +9,10 @@
 
 ## Overview
 
-Some words travel well. Others lose something in translation — not through 
-carelessness, but because the coordinate systems of different languages 
-do not overlap. This project attempts to measure that loss mathematically.
-
+Monolingual word embeddings encode meaning as position in vector space. 
+This project measures how much of that position survives translation.
 Using monolingual fastText embeddings and multilingual LaBSE contextual 
-embeddings, we define an original **Translation Loss metric ℒ(c)** and 
+embeddings, we define an experimental **Translation Loss metric ℒ(c)** and 
 apply it to 30 carefully selected words across five languages: English, 
 Spanish, Portuguese, Italian, and Bulgarian.
 
